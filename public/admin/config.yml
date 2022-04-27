@@ -1,7 +1,7 @@
 backend:
   name: git-gateway #test-repo
   branch: main # Branch to update (optional; defaults to master)
-  open_authoring: true
+  # open_authoring: true
 media_folder: public/img
 public_folder: img
 collections:
