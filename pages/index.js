@@ -10,6 +10,11 @@ export default class Home extends Component {
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
+        <div class="tempHome">
+          <img src="public/img/RN_logo.svg" width="33%" />
+          <p class="underConst">EN CONSTRUCCIÓN</p>
+          <p class="contact">para más información contactar al +34 654 10 77 98</p>
+        </div>
         <article>
           <h1>{title}</h1>
           <HomeContent />
