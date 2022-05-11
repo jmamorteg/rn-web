@@ -15,16 +15,17 @@ export default class Home extends Component {
             <img src="public/img/RN_logo.svg" width="33%" />
             <p class="underConst">EN CONSTRUCCIÓN</p>
             <p class="contact">para más información contactar al +34 654 10 77 98</p>
-          </div>          <h1>{title}</h1>
-          <HomeContent />
-          <ul>
-            {section.map((section, k) => (
-              <li key={k}>
-                <h2>{section.name}</h2>
-                <p>{section.description}</p>
-              </li>
-            ))}
-          </ul>
+          </div>
+          // <h1>{title}</h1>
+          // <HomeContent />
+          // <ul>
+          //   {section.map((section, k) => (
+          //     <li key={k}>
+          //       <h2>{section.name}</h2>
+          //       <p>{section.description}</p>
+          //     </li>
+          //   ))}
+          // </ul>
         </article>
       </>
     )
