@@ -12,7 +12,7 @@ export default class Home extends Component {
         </Head>
         <article>
           <div class="tempHome">
-            <img src="public/img/RN_logo.svg" width="33%" />
+            <img src="public/img/RN_logo.svg" width="50%" />
             <p class="underConst">EN CONSTRUCCIÓN</p>
             <p class="contact">para más información contactar al +34 654 10 77 98</p>
           </div>
