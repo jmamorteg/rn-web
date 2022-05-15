@@ -23,13 +23,13 @@ export default class Home extends Component {
           <div className="tempHome" 
                style={{
                  position: "absolute",
-                 left: "calc(50% - 509px/2 + 0.5px)",
-                 top: "calc(50% - 509px/2 + 0.5px)",
+                 left: "calc(50% - 50vh/2 + 0.5px)",
+                 top: "calc(50% - 50vh/2 + 0.5px)",
                }}>
             <img className="logo"
                  style={{
-                   width: "509px",
-                   height: "509px",
+                   maxWidth: "509px",
+                   maxHeight: "509px",
                  }} src="./img/RN_logo.svg" />
             <p className="underConst"
                style={{
