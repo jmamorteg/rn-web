@@ -41,8 +41,9 @@ export default class Home extends Component {
             <p className="contact"
                style={{
                  marginLeft: "125px",
+                 lineHeight: "0pt",
                  fontFamily: "'Maitree', serif"
-               }}>por ahora me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" >Instagram</a> </p>
+               }}>pero, por ahora, me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" >Instagram</a> </p>
           </div>
           <article className="article" style={{visibility: "hidden"}}>
             <h1>{title}</h1>
