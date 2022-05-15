@@ -1,7 +1,6 @@
 import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
-import './styles.css';
 
 export default class Home extends Component {
   render() {
@@ -11,12 +10,27 @@ export default class Home extends Component {
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
-        <div className="tempHome">
-          <img className="logo" src="../../img/RN_logo.svg" width="50%" />
-          <p className="underConst">EN CONSTRUCCIÓN</p>
-          <p className="contact">para más información contactar al +34 654 10 77 98</p>
+        <div className="tempHome" 
+             style={{background:#FFFDFA;}}>
+          <img className="logo" 
+               style={
+                 position: absolute;
+                 width: 50%;
+                 left: calc(50% - 509px/2 + 0.5px);
+                 top: 257px;
+                 } 
+               src="./public/img/RN_logo.svg" />
+          <p className="underConst"
+             style={
+
+             }>EN CONSTRUCCIÓN</p>
+          <p className="contact"
+             style={
+               
+             }>para más información contactar al +34 654 10 77 98</p>
         </div>
-        <article className="article">
+        <article className="article"
+                 style={visibility:hidden;}>
           <h1>{title}</h1>
           <HomeContent />
           <ul>
