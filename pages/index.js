@@ -11,7 +11,7 @@ export default class Home extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <div className="tempHome" 
-             style={{background:#FFFDFA;}}>
+             style={{background-color:black;}}>
           <img className="logo" 
                style={
                  position: absolute;
