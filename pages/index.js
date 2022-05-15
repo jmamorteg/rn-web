@@ -13,6 +13,17 @@ export default class Home extends Component {
           width: "100%",
           height: "100vh"
         }}>
+          <style jsx global>{`
+            body {
+              margin: 0 0 0 0;
+            }
+            @media (max-width: 300px) {
+              logo {
+                max-width: 30vh;
+              }
+            }
+          `}
+          </style>
           <Head>
             <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,22 +39,24 @@ export default class Home extends Component {
                }}>
             <img className="logo"
                  style={{
-                   maxWidth: "509px",
-                   maxHeight: "509px",
+                   maxWidth: "50vh",
+                   maxHeight: "50vh",
                  }} src="./img/RN_logo.svg" />
             <p className="underConst"
                style={{
-                 marginLeft: "125px",
+                 marginLeft: "10vh",
+                 marginBottom: "5px",
                  fontFamily: "'matrix-ii', serif",
                  fontWeight: "300",
                  fontStyle: "italic"
                }}>mi página está en construcción</p>
             <p className="contact"
                style={{
-                 marginLeft: "125px",
-                 lineHeight: "0pt",
+                 marginLeft: "10vh",
+                 marginTop: "0px",
+                 lineHeight: "14pt",
                  fontFamily: "'Maitree', serif"
-               }}>pero, por ahora, me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" >Instagram</a> </p>
+               }}>pero, por ahora, me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" target={"_blank"} >Instagram</a> </p>
           </div>
           <article className="article" style={{visibility: "hidden"}}>
             <h1>{title}</h1>
