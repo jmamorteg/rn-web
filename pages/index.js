@@ -56,7 +56,7 @@ export default class Home extends Component {
                  marginTop: "0px",
                  lineHeight: "14pt",
                  fontFamily: "'Maitree', serif"
-               }}>pero, por ahora, me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" target={"_blank"} >Instagram</a> o escribirme a mi <a href="mailto:raquelarest@gmail.com?subject=Desde la web">correo-e</a></p>
+               }}>pero, por ahora, me puedes encontrar en <a href="https://www.instagram.com/raquel.neriz/" target={"_blank"} >Instagram</a> o escribirme a <a href="mailto:raquelarest@gmail.com?subject=Desde la web">raquelarest@gmail.com</a></p>
           </div>
           <article className="article" style={{visibility: "hidden"}}>
             <h1>{title}</h1>
